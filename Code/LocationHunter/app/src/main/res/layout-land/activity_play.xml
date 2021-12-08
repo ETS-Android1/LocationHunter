@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgBlue"
+    tools:context="com.mzdev.maxime.locationhunt.playActivity">
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorButton"
+        android:onClick="returnMain"
+        android:text="@string/Back"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="290dp"
+        android:layout_height="211dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/greyLight" />
+
+    <Button
+        android:id="@+id/bSEND"
+        android:layout_width="155dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/colorButton"
+        android:onClick="ImHere"
+        android:text="@string/bSend"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/bBack" />
+
+    <TextView
+        android:id="@+id/toBeFind"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorButton"
+        android:padding="10dp"
+        android:text=">>"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+        android:layout_width="284dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintTop_toTopOf="parent">
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:mapbox_cameraTargetLat="46.205514"
+            mapbox:mapbox_cameraTargetLng="6.146105"
+            mapbox:mapbox_cameraZoom="11"
+            mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

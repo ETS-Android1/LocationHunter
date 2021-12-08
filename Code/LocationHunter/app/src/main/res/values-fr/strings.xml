@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location Hunter</string>
+    <string name="warningTitle">ATTENTION</string>
+    <string name="warningText">Vous devez activer les permissions pour le service de Localisation afin de pouvoir jouer. Si vous êtes inquiets concernant la confidentialité de vos données, veuillez consulter notre politique de confidentialité disponible sur notre site internet</string>
+    <string name="tryAgain">Réessayer</string>
+    <string name="website">Site Web</string>
+    <string name="quit">Quitter</string>
+    <string name="Settings">Paramètre</string>
+    <string name="Play">Jouer</string>
+    <string name="Account">Mon Compte</string>
+    <string name="Back">Retour</string>
+    <string name="textYS">Vous êtes:</string>
+    <string name="textConnected">Connecté</string>
+    <string name="textDisconnected">Déconnecté</string>
+    <string name="textYE">Votre Email</string>
+    <string name="textYP">Votre Mot De Passe</string>
+    <string name="textConnexion">Connexion</string>
+    <string name="Error">Erreur</string>
+    <string name="textErrorConnection">Erreur pendant la tentative de connexion, veuillez vérifier votre email et votre mot de passe</string>
+    <string name="Success">Opération réussie</string>
+    <string name="textSuccessConnection">Bravo! Vous êtes maintenant connectés</string>
+    <string name="textYouShouldConnect">"Attention! Afin de pouvoir jouer, vous devez vous créer un compte et vous identifier. "</string>
+    <string name="textNetworkError">Il y a un problème avec la connexion. Veuillez vérifier s\'il vous plaît si votre appareil est connecté. Il est aussi possible que notre serveur soit éteint, allez vérifier sur notre site internet la disponibilité de nos services.</string>
+    <string name="bSend">J\'y Suis !</string>
+    <string name="bDeconnection">Déconnexion</string>
+    <string name="bCreateAccount">Créer Un Compte</string>
+    <string name="versionError">Désolé mais votre application n\'est pas à jour.  Veuillez faire la mise à jour s\'il vous plaît !</string>
+    <string name="warningProvider">Veuillez activer votre service de localisation sur votre téléphone !</string>
+    <string name="warningARP">Erreur vous avez déjà validé les coordonnées d\'aujourd\'hui !</string>
+    <string name="warningNo">"Vous n'êtes pas aux coordonnées du jour. Distance à la destination: "</string>
+    <string name="warningYes">"Bravo !! Vous avez gagné: "</string>
+    <string name="websiteURL">http://www.locationhunter.ch</string>
+    <string name="warningNoSatelite">Désolé mais votre téléphone n\'a pas été en mesure d\'établir une connexion avec les satellites gps. Veuillez patienter un instant</string>
+    <string name="text_YouHavetoReach">Vous devez atteindre cette destination !</string>
+    <string name="Langue">fr</string>
+</resources>

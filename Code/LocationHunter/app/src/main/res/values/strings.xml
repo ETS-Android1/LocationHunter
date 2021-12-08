@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location Hunter</string>
+    <string name="warningTitle">WARNING</string>
+    <string name="warningText">To play you have to enable Location permission. If your are concerned about your data privacy, please read our privacy policies on our website.</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="website">Website</string>
+    <string name="quit">Quit</string>
+    <string name="Settings">Settings</string>
+    <string name="Account">My Account</string>
+    <string name="Play">Play</string>
+    <string name="Back">Back</string>
+    <string name="textYS">Your are:</string>
+    <string name="textConnected">Connected</string>
+    <string name="textDisconnected">Disconnected</string>
+    <string name="textYE">Your Email</string>
+    <string name="textYP">Your Password</string>
+    <string name="textConnexion">Log In</string>
+    <string name="Error">Error</string>
+    <string name="textErrorConnection">Error while trying connecting, please verify your email and your password</string>
+    <string name="Success">Success</string>
+    <string name="textSuccessConnection">Well done! You are now connected</string>
+    <string name="textYouShouldConnect">Warning! You are not connected. To play you have first to set up an account.</string>
+    <string name="textNetworkError">There is a problem with the connection. Please verify if your device is connected. It\'s also possible that our service is turned off, go on our website to check our News Feed</string>
+    <string name="bSend">I\'m Here !</string>
+    <string name="bDeconnection">Log Out</string>
+    <string name="bCreateAccount">Create Account</string>
+    <string name="version">1</string>
+    <string name="versionError">Sorry but your application is not up to date. Please Update !</string>
+    <string name="warningProvider">Please enable your location Provider on your smartphone !</string>
+    <string name="warningARP">Error, you have already claim today\'s gps location !</string>
+    <string name="warningNo">"You have not reached today's location. Distance to destination: "</string>
+    <string name="warningYes">"Well done !! You earn: "</string>
+    <string name="websiteURL">http://www.locationhunter.ch</string>
+    <string name="warningNoSatelite">Sorry but your phone has not been able to establish a connection with a gps satellite. Please wait while it tries again</string>
+    <string name="text_YouHavetoReach">You have to reach this location !</string>
+    <string name="Langue">en</string>
+</resources>

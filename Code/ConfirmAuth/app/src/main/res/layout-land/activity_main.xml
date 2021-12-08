@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tytrrium.maxime.rfc6238_authentificator.Main">
+
+    <Button
+        android:id="@+id/button_Add"
+        android:layout_width="182dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="192dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginStart="49dp"
+        android:onClick="modifActivity"
+        android:text="Add An Account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="21dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="297dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="147dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:progressBackgroundTint="#b5b5b7"
+        android:progressTint="#2f38b5"
+        android:scaleY="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
